@@ -1,0 +1,29 @@
+PUBLICAR EN https://github.com/larreta/Algebra_iterativa
+
+1. Descomprime este ZIP en tu computadora.
+2. Abre el repositorio en GitHub, pestaña Code.
+3. Pulsa Add file > Upload files.
+4. Arrastra el CONTENIDO de esta carpeta: index.html, descargas,
+   .nojekyll y este archivo. No arrastres el ZIP ni una carpeta
+   exterior que deje index.html dentro de otra carpeta.
+5. Confirma con Commit changes en main.
+6. Settings > Pages > Source: Deploy from a branch.
+   Branch: main. Folder: /(root). Save.
+7. Espera a que la publicación termine en Actions y abre:
+   https://larreta.github.io/Algebra_iterativa/
+
+COMO DEBE QUEDAR LA RAIZ DEL REPOSITORIO:
+- README.md (el que ya tenías puede quedarse)
+- index.html
+- descargas (contiene los PDF, los códigos MATLAB y LaTeX)
+- .nojekyll
+- LEEME_PUBLICAR.txt
+
+Esta es UNA web, con las secciones 1.1 y 1.2 en la misma portada.
+No se cambia ninguna solución. Los documentos se separaron del HTML
+para que ningún archivo supere el límite de subida por navegador.
+
+Para añadir futuros capítulos usa el proyecto Python completo.
+Después de generarlos: python preparar_github.py.
+Publica el contenido de la nueva carpeta publicar_github.
+La fuente LaTeX utiliza los recursos incluidos en el proyecto Python.
